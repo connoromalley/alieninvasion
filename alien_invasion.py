@@ -1,9 +1,8 @@
 # followin the python crash course book alien invasion game
 
-#test
+import sys
 
-x = 4
+import pygame
 
-print(x)
-
-testing one two three 
+class AlienInvasion:
+    """Overall class to manage game assets and behavior"""
