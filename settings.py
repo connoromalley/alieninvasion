@@ -1,4 +1,4 @@
-# settings file for pytho crash course alien invasion game
+# settings file for python crash course alien invasion game
 
 class Settings:
     """A class to store all settings for Alien Invasion"""
@@ -10,4 +10,3 @@ class Settings:
         self.screen_height = 800
         self.bg_color = (230, 230, 230)
 
-        
