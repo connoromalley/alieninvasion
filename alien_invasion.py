@@ -35,6 +35,9 @@ class AlienInvasion:
 
         self.game_active = True
 
+        # Start Alien Invasion in an inactive state.
+        self.game_active = False
+        
     def _create_fleet(self):
         """Create the fleet of aliens."""
         # create an alien and keep adding aliens until there's no room left.
